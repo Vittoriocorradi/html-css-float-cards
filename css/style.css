@@ -29,3 +29,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Exo 2', sans-serif;
 }
+
+/*
+************
+    MAIN
+************
+*/
+
+main {
+    max-width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.titolo-intestazione {
+    color: rgb(230,62,111);
+    margin-bottom: 40px;
+    font-size: 1.8em;
+}
