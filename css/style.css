@@ -44,21 +44,29 @@ main {
     padding-top: 30px;
 }
 
-.intestazione {
+section:first-of-type {
     text-align: center;
 }
 
-.titolo-intestazione {
+/* .titolo-intestazione { */
+h2:first-child {
     color: rgb(230,62,111);
     margin-bottom: 40px;
     font-size: 1.8em;
 }
 
+h2 + p {
+    font-size: 18px;
+}
+
 /* CONTAINER */
 
-.container {
+/* .container { */
+section > div {
     padding: 0 10px;
     margin: 30px auto;
+    background-color: #FA324825;
+    border-radius: 10px;
 }
 
 .cards {
@@ -92,7 +100,10 @@ h3 {
     margin-bottom: 5px;
 }
 
-a {
+/* Link Email */
+
+a:last-child {
+/* small a { */
     color: rgb(0,204,242);
     text-decoration: none;
 }
